@@ -3,6 +3,8 @@
     <q-header>
       <Toolbar />
     </q-header>
+
+
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -11,6 +13,7 @@
 
 <script setup>
 import Toolbar from 'components/Toolbar.vue';
+
 defineOptions({
   name: 'MainLayout',
   components: {

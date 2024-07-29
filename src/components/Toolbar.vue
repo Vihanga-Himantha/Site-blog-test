@@ -1,8 +1,15 @@
 <template>
   <q-toolbar class="bg-primary text-white shadow-2">
     <q-btn flat round dense icon="menu" class="q-mr-sm" />
+
+
+
+
     <q-separator dark vertical inset />
-    <q-btn stretch flat label="Home" />
+    <router-link to="/" class="router-link">
+      <q-btn stretch flat label="Home" />
+    </router-link>
+
 
     <q-space />
 
@@ -42,12 +49,29 @@
 
     -->
 
+
+
     <q-separator dark vertical />
-    <q-btn stretch flat label="Blog" />
+    <router-link to="/blog" class="router-link">
+      <q-btn stretch flat label="Blog" />
+    </router-link>
+
+
+
+
+
     <q-separator dark vertical />
-    <q-btn stretch flat label="About" />
+    <router-link to="/about" class="router-link">
+      <q-btn stretch flat label="About" />
+    </router-link>
+
+
+
+
   </q-toolbar>
 </template>
+
+
 
 <script>
 export default {
@@ -59,4 +83,11 @@ export default {
 .q-toolbar {
   padding: 0 !important; /* Ensure no padding */
 }
+
+
+.router-link {
+  text-decoration: none;
+}
+
+
 </style>
