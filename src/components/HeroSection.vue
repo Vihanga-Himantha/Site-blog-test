@@ -34,7 +34,7 @@ export default {
   background-image: url("https://www.hubspot.com/hs-fs/hubfs/hero-image_5-1.webp?width=893&height=600&name=hero-image_5-1.webp");
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Full viewport height */
+  height: 60vh; /* Full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,4 +70,5 @@ export default {
   }
 }
 </style>
+
 

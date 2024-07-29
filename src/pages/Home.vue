@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page>
     <!-- Hero Section -->
     <HeroSection
       title="Welcome to Our Website"
@@ -68,9 +68,22 @@ export default {
 </script>
 
 <style scoped>
+.q-page {
+  padding: 0 !important; /* Remove padding globally */
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+@media (min-width: 600px) and (max-width: 1439.98px) {
+  .q-page {
+    padding: 0 !important; /* Remove padding for specific media query */
+  }
+}
 </style>
+
+
+
