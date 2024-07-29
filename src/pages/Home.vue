@@ -39,19 +39,25 @@ export default {
           id: 1,
           title: 'Card 1',
           description: 'This is a description for card 1.',
-          image: 'path/to/image1.jpg',
+          image: 'src/assets/images/6.jpg',
         },
         {
           id: 2,
           title: 'Card 2',
           description: 'This is a description for card 2.',
-          image: 'path/to/image2.jpg',
+          image: 'src/assets/images/6.jpg',
         },
         {
           id: 3,
           title: 'Card 3',
           description: 'This is a description for card 3.',
-          image: 'path/to/image3.jpg',
+          image: 'src/assets/images/6.jpg',
+        },
+        {
+          id: 4,
+          title: 'Card 1',
+          description: 'This is a description for card 1.',
+          image: 'src/assets/images/6.jpg',
         },
       ],
     };
